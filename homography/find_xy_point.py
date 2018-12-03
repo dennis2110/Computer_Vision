@@ -15,7 +15,7 @@ def get_xy_point(event, x, y, flags, param):
         print('x= ',x)
         print('y= ',y)
 
-img1 = cv2.imread('img1.jpg')
+img1 = cv2.imread('Fig1.jpg')
 
 cv2.namedWindow('img1')
 cv2.setMouseCallback('img1',get_xy_point)

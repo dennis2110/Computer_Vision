@@ -37,7 +37,7 @@ H = H.reshape([3,3])
 '''
 print(H1.dot([[x1],[y1],[1]]))
 print(H1.dot([[x2],[y2],[1]]))
-print(H1.dot([[x3],[y3],[1]]))
+print(H1.dot([[x3],[y3],[1]])) 
 print(H1.dot([[x4],[y4],[1]]))
 '''
 p1 = [x1,y1]
